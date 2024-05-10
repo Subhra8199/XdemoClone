@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #DEE0E6;
+}
+
+/* typography and icons */
+
+
+
+.Xlogo{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    
+    
+}
+.logoContainer{
+    display: flex;
+    padding: 20px 0 0 0 ;  
+}
+
+i{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #3B444E;
+}
+
+.fa-heart:hover{
+    text-shadow: 0px 0px 5px  #FF1111;
+}
+
+.liked{
+    color: #FF1111;
+}
+
+
+
+.retweeted {
+  color: #08A918;
+}
+
+.fa-retweet:hover{
+    text-shadow: 0px 0px 5px #08A918;
+}
+
+/* layout */
+
+main, header{
+    width: 290px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 25px;
+}
+
+.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #DEE0E6;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* tweet */
+
+.tweet{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 0;
+    
+}
+
+.tweet-text{
+    width: 207px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+.handler{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.deleteTweet{
+    display: none;
+    
+}
